@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 50px;
+}
+
+.container:last-child {
+    padding-bottom: 20px;
+}
+
+.value {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.span {
+    margin-left: 6px;
+    font-size: 20px;
+}
